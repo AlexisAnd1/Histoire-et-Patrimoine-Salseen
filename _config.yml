@@ -1,11 +1,20 @@
 title: Histoire et Patrimoine Salséen
-description: Histoire et Patrimoine Salséen
+description: Présentation de l'Histoire et du Patrimoine Salséen
 baseurl: "" # laisse vide si ton site est déployé à la racine
 url: "https://alexisand1.github.io/Histoire-et-Patrimoine-Salseen/" # URL de ton site
 theme: minima # Thème Jekyll par défaut
 lang: fr-FR
 
+# Navigation pour les onglets du site
+paginate: 5
+
 # Author details
 author:
   name: Erydex
-  email: tonemail@example.com
+
+# Configuration de la navigation dans l'en-tête
+header_pages:
+  - index.md
+  - blog.md
+  - contact.md
+  - about.md

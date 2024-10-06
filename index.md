@@ -1,16 +1,10 @@
 ---
-layout: default
+layout: home
 title: Accueil
 ---
 
-# Bienvenue sur mon site Histoire-et-Patrimoine-Salseen
+# Bienvenue sur mon site !
 
-Voici un exemple de site statique utilisant **Jekyll**. Ce site est entièrement généré à partir de fichiers Markdown et HTML.
+Voici la page d'accueil de mon site GitHub Pages utilisant le thème **Minima**.
 
-- Il est facile à personnaliser.
-- Rapide à configurer.
-- Idéal pour les sites personnels ou les projets open source.
-
-## Découvrez plus
-
-Vous pouvez en apprendre plus [à propos de moi](/about).
+Vous pouvez naviguer via les onglets en haut pour découvrir les différentes sections de ce site.
