@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "À propos"
-permalink: /about/
+permalink: Histoire-et-Patrimoine-Salseen/about/
 ---
 
 # À propos de ce site
