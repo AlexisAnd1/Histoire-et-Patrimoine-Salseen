@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Le Château de Salses : Une Forteresse Impressionnante"
-date: 2024-10-06 10:00:00
+date: 2024-10-06
 categories: blog
 ---
 

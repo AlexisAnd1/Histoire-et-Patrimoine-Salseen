@@ -1,9 +1,15 @@
 ---
 layout: default
-title: "Blog"
+title: Blog
 permalink: /blog/
 ---
 
-# Articles de blog
+<h1>Articles du Blog</h1>
 
-Retrouvez ici tous les articles sur l'histoire et les monuments de Salses-le-Château.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - <em>{{ post.date | date: "%d %B %Y" }}</em>
+    </li>
+  {% endfor %}
+</ul>
