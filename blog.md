@@ -1,9 +1,9 @@
 ---
-layout: home
-title: Blog
+layout: page
+title: "Blog"
 permalink: /blog/
 ---
 
-# Blog
+# Articles de blog
 
-Voici une liste des articles que j'ai publiés :
+Retrouvez ici tous les articles sur l'histoire et les monuments de Salses-le-Château.

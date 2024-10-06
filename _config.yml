@@ -1,20 +1,27 @@
+# _config.yml
+
 title: Histoire et Patrimoine Salséen
 description: Présentation de l'Histoire et du Patrimoine Salséen
-baseurl: "" # laisse vide si ton site est déployé à la racine
-url: "https://alexisand1.github.io/Histoire-et-Patrimoine-Salseen/" # URL de ton site
-theme: jekyll-theme-cayman # Un thème Jekyll
+baseurl: ""  # laisse vide si ton site est déployé à la racine
+url: "https://alexisand1.github.io/Histoire-et-Patrimoine-Salseen/"  # URL de ton site
+theme: jekyll-theme-cayman  # Un thème Jekyll
 lang: fr-FR
-
-# Navigation pour les onglets du site
-paginate: 1
 
 # Author details
 author:
   name: Erydex
 
+# Pagination (nombre d'articles par page pour le blog)
+paginate: 1
+
 # Configuration de la navigation dans l'en-tête
 header_pages:
   - index.md
+  - about.md
   - blog.md
   - contact.md
-  - about.md
+
+# Plugins (pour RSS et SEO)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

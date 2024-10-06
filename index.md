@@ -1,10 +1,9 @@
 ---
-layout: home
-title: Accueil
+layout: page
+title: "Accueil"
+permalink: /
 ---
 
-# Bienvenue sur mon site !
+# Bienvenue sur Histoire et Patrimoine Salséen
 
-Voici la page d'accueil de mon site GitHub Pages utilisant le thème **Minima**.
-
-Vous pouvez naviguer via les onglets en haut pour découvrir les différentes sections de ce site.
+Explorez les trésors historiques et le patrimoine unique de Salses-le-Château.

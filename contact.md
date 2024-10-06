@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Contact
+title: "Contact"
 permalink: /contact/
 ---
 
-# Contact
+# Contactez-nous
 
-Vous pouvez me contacter par email à [monemail@example.com](mailto:monemail@example.com) ou via [GitHub](https://github.com/tonnomutilisateur).
+Vous pouvez nous contacter via l'adresse email suivante : [contact@salseen.com](mailto:contact@salseen.com).

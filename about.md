@@ -1,11 +1,9 @@
 ---
 layout: page
-title: À propos
+title: "À propos"
 permalink: /about/
 ---
 
 # À propos de ce site
 
-Ce site est un projet statique, généré avec Jekyll et hébergé par GitHub Pages.
-
-Si vous avez des questions, n'hésitez pas à me contacter.
+Ce site présente l'histoire et le patrimoine de Salses-le-Château.
