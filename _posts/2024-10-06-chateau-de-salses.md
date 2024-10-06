@@ -9,11 +9,13 @@ categories: blog
 
 Le **Château de Salses**, situé dans le département des Pyrénées-Orientales, est une forteresse exceptionnelle datant de la fin du XVe siècle. Il a été construit entre 1497 et 1504 par les Espagnols pour défendre la frontière nord du Royaume d'Aragon contre le Royaume de France. Sa position stratégique à l'entrée des Corbières, entre Narbonne et Perpignan, lui conférait un rôle défensif crucial.
 
-![Château de Salses](/Histoire-et-Patrimoine-Salseen/assets/images/chateau-de-salses.jpg)
+![Château de Salses](../assets/images/chateau-de-salses.jpg)
 
 ## Une Architecture Innovante
 
 Le Château de Salses est un exemple unique d'architecture militaire de transition entre le château médiéval et la fortification bastionnée de la Renaissance. Il se distingue par ses murs massifs, ses bastions avancés, et ses remparts parfaitement adaptés à l’artillerie. Sa forme compacte et ses fossés profonds en font une véritable forteresse imprenable à l'époque de sa construction.
+
+![Château de Salses](/assets/images/chateau-de-salses.jpg)
 
 ### Caractéristiques principales :
 - **Bastions** : Des angles fortifiés avec des plateformes pour l'artillerie.
