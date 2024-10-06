@@ -1,0 +1,42 @@
+---
+layout: default
+title: Accueil
+permalink: /
+---
+
+<div class="home">
+  <h1>Bienvenue sur Histoire et Patrimoine Salséen</h1>
+  
+  <p>Découvrez l'histoire et le patrimoine de Salses-le-Château, une ville riche en monuments et en vestiges historiques.</p>
+  
+  <h2>Explorez nos articles</h2>
+  <p>Nous vous invitons à explorer nos articles sur les différents monuments et les faits marquants de la région.</p>
+
+  <h2>Les Monuments Principaux</h2>
+  <ul>
+    <li>Le <strong>Château de Salses</strong> : une forteresse unique construite au XVe siècle.</li>
+    <li>Les remparts de la ville.</li>
+    <li>Les vieilles églises et autres bâtiments historiques.</li>
+  </ul>
+
+  <h2>Notre Mission</h2>
+  <p>Ce site a pour objectif de mettre en lumière le riche patrimoine de Salses-le-Château et de fournir des informations détaillées aux visiteurs intéressés par l'histoire locale.</p>
+
+  <h2>Articles récents</h2>
+  <ul>
+    {% for post in paginator.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Articles précédents</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Articles suivants &raquo;</a>
+    {% endif %}
+  </p>
+</div>
