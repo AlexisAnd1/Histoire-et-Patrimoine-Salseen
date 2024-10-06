@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog"
-permalink: Histoire-et-Patrimoine-Salseen/blog/
+permalink: /blog/
 ---
 
 # Articles de blog

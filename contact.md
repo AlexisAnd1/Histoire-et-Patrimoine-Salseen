@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Contact"
-permalink: Histoire-et-Patrimoine-Salseen/contact/
+permalink: /contact/
 ---
 
 # Contactez-nous
