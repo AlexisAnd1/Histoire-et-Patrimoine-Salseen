@@ -2,7 +2,7 @@
 
 title: Histoire et Patrimoine Salséen
 description: Présentation de l'Histoire et du Patrimoine Salséen
-baseurl: ""  # laisse vide si ton site est déployé à la racine
+baseurl: "https://alexisand1.github.io/Histoire-et-Patrimoine-Salseen/"  # laisse vide si ton site est déployé à la racine
 url: "https://alexisand1.github.io/Histoire-et-Patrimoine-Salseen/"  # URL de ton site
 theme: jekyll-theme-cayman  # Un thème Jekyll
 lang: fr-FR
