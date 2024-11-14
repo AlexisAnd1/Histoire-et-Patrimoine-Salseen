@@ -3,48 +3,39 @@ layout: default
 title: Accueil
 permalink: /
 ---
+<div class="home">
+  <h1>Bienvenue sur Histoire et Patrimoine Salséen</h1>
+  
+  <p>Découvrez l'histoire et le patrimoine de Salses-le-Château, une ville riche en monuments et en vestiges historiques.</p>
+  
+  <h2>Explorez nos articles</h2>
+  <p>Nous vous invitons à explorer nos articles sur les différents monuments et les faits marquants de la région.</p>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histoire du Château de Salses</title>
-</head>
-<body>
-    <header>
-        <h1>Histoire du Château de Salses</h1>
-    </header>
+  <h2>Les Monuments Principaux</h2>
+  <ul>
+    <li>Le <strong>Château de Salses</strong> : une forteresse unique construite au XVe siècle.</li>
+    <li>Les remparts de la ville.</li>
+    <li>Les vieilles églises et autres bâtiments historiques.</li>
+  </ul>
 
-    <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>Le Château de Salses est une imposante forteresse située dans le département des Pyrénées-Orientales, près de la frontière entre la France et l'Espagne. Construit à la fin du XVe siècle par les rois catholiques d’Espagne, Ferdinand II d'Aragon et Isabelle de Castille, le château était destiné à protéger la frontière nord de leur royaume face au royaume de France.</p>
-        </section>
+  <h2>Notre Mission</h2>
+  <p>Ce site a pour objectif de mettre en lumière le riche patrimoine de Salses-le-Château et de fournir des informations détaillées aux visiteurs intéressés par l'histoire locale.</p>
 
-        <section>
-            <h2>La Construction de la Forteresse</h2>
-            <p>Les travaux de construction débutent en 1497 sous la direction de l'architecte Francisco Ramiro López, qui a conçu une forteresse hybride, à mi-chemin entre un château médiéval et une fortification moderne. Le château est conçu pour résister aux nouvelles techniques de guerre, notamment l’artillerie. Il se distingue par ses murailles épaisses, ses bastions et son architecture en profondeur.</p>
-        </section>
+  <h2>Articles récents</h2>
+  <ul>
+    {% for post in paginator.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-        <section>
-            <h2>Les Conflits et Assauts</h2>
-            <p>Durant les XVIe et XVIIe siècles, le château est un point de conflit stratégique entre les Français et les Espagnols. En 1639, il est assiégé et pris par les troupes françaises, mais il est récupéré par les Espagnols l'année suivante. En 1642, après un nouveau siège, la forteresse tombe définitivement aux mains de la France et marque ainsi le déclin de sa fonction militaire.</p>
-        </section>
-
-        <section>
-            <h2>Abandon et Restauration</h2>
-            <p>Après le Traité des Pyrénées en 1659, qui fixe la frontière franco-espagnole plus au sud, le château perd son importance stratégique et est progressivement abandonné. Au XIXe siècle, il est partiellement en ruines. Classé monument historique en 1886, il bénéficie de travaux de restauration initiés par l’architecte Viollet-le-Duc. Le site est aujourd'hui entretenu par le Centre des monuments nationaux.</p>
-        </section>
-
-        <section>
-            <h2>Un Monument Historique et Touristique</h2>
-            <p>Le Château de Salses est aujourd’hui un site touristique populaire, offrant aux visiteurs un aperçu de l'architecture militaire de la fin du Moyen Âge. Son état de conservation et sa situation géographique en font un lieu d'intérêt exceptionnel pour les passionnés d'histoire et d'architecture. Il accueille également diverses manifestations culturelles et expositions tout au long de l'année.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Histoire du Château de Salses. Tous droits réservés.</p>
-    </footer>
-</body>
-</html>
+  <p class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Articles précédents</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Articles suivants &raquo;</a>
+    {% endif %}
+  </p>
+</div>
